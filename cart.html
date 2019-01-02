@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>购物车页面</title>
+    <!-- 重置样式 -->
+    <link rel="stylesheet" href="./src/css/reset.css">
+    <!-- 购物车页面主体区域样式 -->
+    <link rel="stylesheet" href="./src/css/cart.css">
+</head>
+
+<body>
+    <!-- 头部 -->
+    <div class="header wrapper clear">
+        <img class="left" src="./src/img/vancl-logo.png" alt="">
+        <a href="" class="right">帮助中心</a>
+        <div class="right">您好，欢迎光临凡客诚品。<a href=""> 登录 </a>|<a href=""> 注册 </a></div>
+    </div>
+    <!-- 主体 -->
+    <div class="main wrapper">
+        <div class="step clear">
+            <em>1.我的购物车</em><span>2.填写核对信息单</span><span>3.成功提交订单</span>
+        </div>
+        <div class="car_title">
+            我的购物车
+        </div>
+        <div class="car_prompt"><em> 温馨提示：</em>1.选购清单中的商品无法保留库存，请您及时结算。2.商品的价格和库存将以订单提交时为准。3.促销活动满减优惠将均摊至商品小计中。</div>
+        <table class="car">
+            <thead>
+                <tr>
+                    <th class="bg-left"></th>
+                    <th class="bar-title bar">
+                        <input type="checkbox" name="" id="all_check_top">
+                        <label for="all_check_top">全选</label>
+                    </th>
+                    <th class="img"></th>
+                    <th class="name">商品名称</th>
+                    <th class="size">尺寸</th>
+                    <th class="price">单价</th>
+                    <th class="count">数量</th>
+                    <th class="discounts">优惠</th>
+                    <th class="subtotal">小计</th>
+                    <th class="operate">操作</th>
+                    <th class="bg-right"></th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr class="h20"></tr>
+                <tr>
+                    <td class="bg-left"></td>
+                    <td class="bar">
+                        <input type="checkbox" name="" id="">
+                    </td>
+                    <td class="img"><img src="./src/img/6384090-1j201812281502094256.jpg" alt=""></td>
+                    <td class="name">T恤 赵老师的猪 乐 黑色</td>
+                    <td class="size">S</td>
+                    <td class="price">￥<i>118.00</i></td>
+                    <td class="count clear">
+                        <a href="">-</a><input type="text" value="1">
+                        <a href="">+</a>
+                    </td>
+                    <td class="discounts">-</td>
+                    <td class="subtotal">￥<i>118.00</i></td>
+                    <td class="operate"><a href="">删除</a></td>
+                    <td class="bg-right"></td>
+                </tr>
+                <tr class="h20"></tr>
+            </tbody>
+        </table>
+        <div class="sum">
+            <div class="bar">
+                <input type="checkbox" id="all_check_bottom"><label for="all_check_bottom">全选</label><a href="">删除</a>
+                <span>数量总计：<i>0</i>件</span>
+                <span>您目前可享受全场购物免运费</span>
+            </div>
+            <div class="clear">
+                <div class="sum_money left">
+                    产品金额总计(不含运费)：<span>￥<i>0.00</i></span>
+                </div>
+                <div class="btns right">
+                    <button>&lt;&lt;继续购物 </button>
+                    <button>去结算&gt;&gt;</button>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <!-- 尾部 -->
+    <div class="footer wrapper">
+        <p>Copyright 2007 - 2016 vancl.com All Rights Reserved 京ICP证100557号 京公网安备11010102000579号 出版物经营许可证新出发京批字第直110138号</p>
+        <div>
+            <a href=""></a>
+            <span></span>
+            <a href=""></a>
+        </div>
+    </div>
+    <!-- jq函数库引用 -->
+    <script src="./src/script/thirdplugins/jquery.min.js"></script>
+</body>
+
+</html>

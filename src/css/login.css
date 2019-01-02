@@ -1,0 +1,287 @@
+@charset "utf-8";
+
+/* 头部 */
+
+.header {
+    margin-top: 10px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #000;
+}
+
+.header>a {
+    margin-top: 20px;
+    color: #000;
+}
+
+.header>a:hover {
+    color: #b81e20;
+    text-decoration: underline;
+}
+
+
+/* 中部 */
+
+.main {
+    height: 474px;
+    margin: 50px auto 10px;
+    border-bottom: 1px solid #999;
+    position: relative;
+}
+
+.main>img {
+    position: absolute;
+    top: 43px;
+    left: 150px;
+}
+
+.main>form {
+    width: 400px;
+    float: right;
+    margin-right: 100px;
+}
+
+.main>form a {
+    color: #b81e20;
+}
+
+.main>form a:hover {
+    text-decoration: underline;
+}
+
+.main>form>h1 {
+    height: 25px;
+    margin-bottom: 18px;
+    color: #a2a2a2;
+    font: 900 22px/25px '微软雅黑';
+}
+
+.main>form>h1>span {
+    font-size: 14px;
+    float: right;
+}
+
+.main>form>.login {
+    width: 400px;
+    border: 1px solid #D1D1D1;
+    margin-bottom: 20px;
+}
+
+.main>form>.login>.tab {
+    border-bottom: 1px solid #D1D1D1;
+}
+
+.main>form>.login>.tab>li {
+    float: left;
+    width: 50%;
+    height: 35px;
+    line-height: 35px;
+    font-size: 14px;
+    color: #656565;
+    text-align: center;
+    background: #f5f5f5;
+    cursor: pointer;
+}
+
+.main>form>.login>.tab>li.on {
+    background: #b42025;
+    color: #ffffff;
+    font-weight: 900;
+}
+
+.main>form>.login>.show {
+    padding: 10px 20px;
+}
+
+
+/* 普通登录 */
+
+.main>form>.login>.show>.slow_login>li {
+    margin-top: 18px;
+}
+
+.main>form>.login>.show>.slow_login>li>input {
+    width: 100%;
+    height: 45px;
+    text-indent: 10px;
+    color: #acacac;
+    border: 1px solid #acacac;
+    outline-color: rgb(25, 54, 117);
+}
+
+.main>form>.login>.show>.slow_login>li>p {
+    line-height: 30px;
+    font-size: 14px;
+    font-weight: bolder;
+    text-align: right;
+}
+
+.main>form>.login>.show>.slow_login>li>button {
+    width: 100%;
+    height: 45px;
+    background: #b42025;
+    font-size: 20px;
+    color: #fff;
+    border: 0;
+    outline: 0;
+    cursor: pointer;
+}
+
+
+/* 快速登录 */
+
+.main>form>.login>.show>.fast_login {
+    display: none;
+}
+
+.main>form>.login>.show>.fast_login>li {
+    margin-top: 18px;
+}
+
+.main>form>.login>.show>.fast_login>li>input {
+    width: 100%;
+    height: 45px;
+    text-indent: 10px;
+    color: #acacac;
+    border: 1px solid #acacac;
+    outline-color: rgb(25, 54, 117);
+}
+
+.main>form>.login>.show>.fast_login>li>.w250 {
+    width: 250px;
+}
+
+.main>form>.login>.show>.fast_login>li>a.right {
+    width: 97px;
+    height: 45px;
+    text-align: center;
+    line-height: 45px;
+    background: #f5f5f5;
+    border: solid 1px #cbcbcb;
+    font-weight: bolder;
+}
+
+.main>form>.login>.show>.fast_login>li>.w144 {
+    width: 144px;
+}
+
+.main>form>.login>.show>.fast_login>li>i {
+    width: 120px;
+    height: 45px;
+    text-align: center;
+    line-height: 45px;
+    border: 1px solid #acacac;
+    margin-left: 1px;
+}
+
+.main>form>.login>.show>.fast_login>li>button {
+    width: 100%;
+    height: 45px;
+    background: #b42025;
+    font-size: 20px;
+    color: #fff;
+    border: 0;
+    outline: 0;
+    cursor: pointer;
+}
+
+
+/* 合作伙伴 */
+
+.main>form>.login>.group {
+    margin-top: 30px;
+    padding: 20px;
+    border-top: dotted 1px #909090;
+}
+
+.main>form>.login>.group>h2 {
+    color: #a4a4a4;
+    line-height: 14px;
+    font-size: 14px;
+    font-weight: bolder;
+    margin-bottom: 10px;
+}
+
+.main>form>.login>.group>div>a {
+    float: left;
+    width: 33px;
+    height: 33px;
+    margin-right: 10px;
+    background: url(../img/logos.jpg) no-repeat;
+}
+
+.main>form>.login>.group>div>a:nth-of-type(1) {
+    background-position: 0 0;
+}
+
+.main>form>.login>.group>div>a:nth-of-type(2) {
+    background-position: -147px 0px;
+    ;
+}
+
+.main>form>.login>.group>div>a:nth-of-type(3) {
+    background-position: -48px 0px;
+}
+
+.main>form>.login>.group>div>a:nth-of-type(4) {
+    background-position: -189px 0px;
+}
+
+.main>form>.login>.group>div>a:nth-of-type(5) {
+    background-position: -228px 0px;
+}
+
+.main>form>.login>.group>div>a:nth-of-type(6) {
+    width: 36px;
+    background-position: -93px 0px;
+}
+
+
+/* 尾部 */
+
+.footer {
+    height: 104px;
+    padding-top: 15px;
+}
+
+.footer>p {
+    text-align: center;
+    color: #999999;
+    margin-bottom: 20px;
+}
+
+.footer>div {
+    height: 45px;
+    margin-bottom: 25px;
+    text-align: center;
+}
+
+.footer>div>a,
+.footer>div>span {
+    display: inline-block;
+    margin: 0 10px;
+    background: url(../img/spritesbg.png) no-repeat;
+}
+
+.footer>div>a:nth-of-type(1) {
+    width: 113px;
+    height: 42px;
+    background-position: 0px -400px;
+}
+
+.footer>div>span {
+    width: 156px;
+    height: 45px;
+    background-position: 0px -448px;
+}
+
+.footer>div>a:nth-of-type(2) {
+    width: 96px;
+    height: 42px;
+    background-position: 0px -494px;
+}
+
+.footer>div>a:nth-of-type(3) {
+    width: 101px;
+    height: 42px;
+    background-position: -97px -494px;
+}

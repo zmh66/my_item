@@ -1,0 +1,327 @@
+@charset "utf-8";
+
+/* 重置样式修改wrapper盒子页面固宽 */
+
+.wrapper {
+    width: 980px;
+}
+
+
+/* 头部 */
+
+.header {
+    height: 39px;
+    line-height: 39px;
+    padding-top: 15px;
+    border-bottom: 1px solid #7A7F89;
+}
+
+.header>a {
+    color: #000;
+}
+
+.header>a:hover {
+    color: #b81e20;
+    text-decoration: underline;
+}
+
+.header div a {
+    color: #b81e20;
+}
+
+.header div {
+    margin-right: 40px;
+}
+
+
+/* 主体 */
+
+.main .step {
+    height: 28px;
+    line-height: 28px;
+    width: 540px;
+    margin-top: 10px;
+    background: url(../img/newProm.gif) no-repeat 0 0;
+    color: #666;
+    text-align: center;
+}
+
+.main .step em,
+.main .step span {
+    float: left;
+    height: 28px;
+    width: 170px;
+    font-weight: 900;
+}
+
+.main .step em {
+    color: #fff;
+}
+
+.main .car_title {
+    margin-top: 10px;
+    padding-left: 45px;
+    height: 30px;
+    line-height: 38px;
+    font-size: 18px;
+    font-weight: bold;
+    background: url(../img/newpromotion.gif) no-repeat -460px 0;
+}
+
+.main .car_prompt {
+    margin-top: 6px;
+    color: #656565;
+    line-height: 20px;
+}
+
+.main .car_prompt em {
+    color: #a10000;
+}
+
+
+/* 购物车表格 */
+
+.main .car {
+    text-align: center;
+    width: 100%;
+    border-spacing: unset;
+    border: 1px solid #DCDFE4;
+}
+
+.main .car th {
+    height: 37px;
+    line-height: 37px;
+    border-bottom: 1px solid #B7B7B7;
+    background: url(../img/carthd.png) repeat-x;
+}
+
+.main .car .bg-left,
+.main .car .bg-right {
+    width: 16px;
+}
+
+.main .car .bar,
+.main .car .size,
+.main .car .price {
+    width: 80px;
+}
+
+.main .car .img {
+    width: 50px;
+}
+
+.main .car .name {
+    width: 313px;
+}
+
+.main .car .count {
+    width: 100px;
+}
+
+.main .car .discounts {
+    width: 55px;
+}
+
+.main .car .subtotal {
+    width: 112px;
+}
+
+.main .car .operate {
+    width: 78px;
+}
+
+#all_check_top {
+    margin-right: 10px;
+    vertical-align: middle;
+}
+
+.main .car .h20 {
+    height: 20px;
+}
+
+.main .car td {
+    height: 70px;
+}
+
+.main .car td a {
+    color: #999;
+}
+
+.main .car td a:hover {
+    color: #a10000;
+}
+
+.main .car td>img {
+    width: 48px;
+    height: 48px;
+    border: 1px solid #C8C8C8;
+}
+
+.main .car td>input {
+    float: left;
+    width: 30px;
+    height: 18px;
+    margin: 0 5px;
+    border: 1px solid #D8D8D8;
+}
+
+.main .car td.count a {
+    float: left;
+    text-indent: -9999px;
+    margin-left: 10px;
+    overflow: hidden;
+    width: 17px;
+    height: 20px;
+    background: url(../img/cartsprite.png) no-repeat -85px 0;
+}
+
+.main .car td.count a:nth-of-type(2) {
+    margin-left: 0;
+    background-position: 0 0;
+}
+
+.main .car td.count a:nth-of-type(2):hover {
+    background-position: -17px 0;
+}
+
+.main .car td.count a.able_click {
+    background-position: 0 0;
+}
+
+.main .car td.hover {
+    background-position: -17px 0;
+}
+
+
+/* 清单结算 */
+
+.main .sum {
+    padding: 12px 10px 0 13px;
+    background: none repeat scroll 0 0 #FFFEF5;
+    border: 1px solid #EBE5BB;
+    line-height: 25px;
+    margin: 10px 0 30px;
+}
+
+.main .sum .bar {
+    height: 25px;
+    line-height: 25px;
+    padding-top: 14px;
+    color: #333;
+}
+
+.main .sum .bar input {
+    width: 13px;
+    height: 13px;
+    vertical-align: middle;
+    margin-right: 10px;
+}
+
+.main .sum .bar a {
+    margin-left: 20px;
+    color: #333;
+}
+
+.main .sum .bar a:hover {
+    color: #a10000;
+}
+
+.main .sum .bar span {
+    margin-left: 42px;
+}
+
+.main .sum .bar i {
+    color: #a10000;
+}
+
+.main .sum .bar span:nth-of-type(2) {
+    color: #a10000;
+    font-weight: 900;
+}
+
+.main .sum .sum_money {
+    height: 30px;
+    padding: 10px 0;
+    color: #333;
+}
+
+.main .sum .sum_money span {
+    color: #a10000;
+    font-weight: 900;
+    font-size: 24px;
+}
+
+.main .sum .sum_money span i {
+    font-weight: 900;
+}
+
+.main .sum .btns {
+    height: 50px;
+    margin-bottom: 15px;
+}
+
+.main .sum .btns button:nth-of-type(1) {
+    width: 122px;
+    height: 37px;
+    margin-left: 10px;
+    border: 0;
+    cursor: pointer;
+    background: url(../img/newpromotion.gif) no-repeat -160px 0;
+}
+
+.main .sum .btns button:nth-of-type(2) {
+    width: 160px;
+    height: 50px;
+    font-size: 20px;
+    text-indent: 20px;
+    margin-left: 10px;
+    cursor: pointer;
+    color: #ffffff;
+    border: 0;
+    background: url(../img/newpromotion.gif) no-repeat 0 0;
+}
+
+
+/* 尾部 */
+
+.footer {
+    height: 104px;
+    padding-top: 15px;
+}
+
+.footer>p {
+    text-align: center;
+    color: #999999;
+    margin-bottom: 20px;
+}
+
+.footer>div {
+    height: 45px;
+    margin-bottom: 25px;
+    text-align: center;
+}
+
+.footer>div>a,
+.footer>div>span {
+    display: inline-block;
+    margin: 0 10px;
+    background: url(../img/spritesbg.png) no-repeat;
+}
+
+.footer>div>a:nth-of-type(1) {
+    width: 156px;
+    height: 46px;
+    background: url(../img/cert-redlogo.gif) no-repeat;
+}
+
+.footer>div>span {
+    width: 156px;
+    height: 45px;
+    background-position: 0px -448px;
+}
+
+.footer>div>a:nth-of-type(2) {
+    width: 96px;
+    height: 42px;
+    background-position: 0px -494px;
+}

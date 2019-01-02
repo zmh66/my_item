@@ -1,0 +1,198 @@
+@charset "utf-8";
+
+/* 头部 */
+
+.header {
+    margin-top: 10px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #000;
+}
+
+
+/* 中部 */
+
+.main {
+    height: 547px;
+    margin-top: 45px;
+    position: relative;
+}
+
+.main>img {
+    position: absolute;
+    top: 47px;
+    left: 130px;
+}
+
+.main>form {
+    width: 415px;
+    float: right;
+    margin-right: 100px;
+}
+
+.main>form a {
+    color: #b81e20;
+}
+
+.main>form a:hover {
+    text-decoration: underline;
+}
+
+.main>form>h1 {
+    height: 35px;
+    border-bottom: 2px solid #b81e20;
+    margin-bottom: 25px;
+    color: #a2a2a2;
+    font: 400 20px/35px '微软雅黑';
+}
+
+.main>form>h1>span {
+    font-size: 14px;
+    float: right;
+}
+
+.form-list>li {
+    width: 100%;
+    position: relative;
+    margin-top: 16px;
+}
+
+.form-list>li>input {
+    width: 100%;
+    height: 45px;
+    line-height: 45px;
+    font-size: 14px;
+    border: 1px solid #acacac;
+    outline-color: rgb(25, 54, 117);
+    text-indent: 10px;
+}
+
+.form-list>li>span {
+    display: none;
+    position: absolute;
+    z-index: 10;
+    top: 100%;
+    left: 0;
+}
+
+.form-list>li>.prompt {
+    line-height: 16px;
+    color: #999;
+    height: 16px;
+}
+
+.form-list>li>.error {
+    color: #a10000;
+    border: 1px #ffd5d5 solid;
+    padding: 3px 5px;
+    background: #f9f9f9;
+}
+
+.form-list>li>.safe {
+    height: 22px;
+    display: none;
+}
+
+.form-list>li>.safe>span,
+.form-list>li>.safe>b {
+    line-height: 22px;
+    color: #666;
+}
+
+.form-list>li>.safe>i {
+    width: 140px;
+    height: 12px;
+    margin: 5px 5px 0 0;
+    background: url(../img/sprite_a.png) no-repeat 0 -1097px;
+    /*备注=>  中：-1117px 强：-1139px*/
+}
+
+#reg {
+    margin-top: 30px;
+}
+
+#reg input {
+    height: 14px;
+    vertical-align: middle;
+}
+
+.form-list>li>.w262 {
+    width: 262px;
+}
+
+.form-list>li>.right {
+    width: 140px;
+    height: 45px;
+    text-align: center;
+    line-height: 45px;
+    border: 1px solid #acacac;
+}
+
+#reg label {
+    font-size: 14px;
+    line-height: 12px;
+}
+
+#reg button {
+    width: 100%;
+    height: 45px;
+    margin-top: 20px;
+    cursor: pointer;
+    background: #9A9A9A;
+    color: #fff;
+    font-size: 16px;
+}
+
+#reg button:hover {
+    text-decoration: underline;
+}
+
+
+/* 尾部 */
+
+.footer {
+    height: 104px;
+    padding-top: 15px;
+}
+
+.footer>p {
+    text-align: center;
+    color: #999999;
+    margin-bottom: 20px;
+}
+
+.footer>div {
+    height: 45px;
+    margin-bottom: 25px;
+    text-align: center;
+}
+
+.footer>div>a,
+.footer>div>span {
+    display: inline-block;
+    margin: 0 10px;
+    background: url(../img/spritesbg.png) no-repeat;
+}
+
+.footer>div>a:nth-of-type(1) {
+    width: 113px;
+    height: 42px;
+    background-position: 0px -400px;
+}
+
+.footer>div>span {
+    width: 156px;
+    height: 45px;
+    background-position: 0px -448px;
+}
+
+.footer>div>a:nth-of-type(2) {
+    width: 96px;
+    height: 42px;
+    background-position: 0px -494px;
+}
+
+.footer>div>a:nth-of-type(3) {
+    width: 101px;
+    height: 42px;
+    background-position: -97px -494px;
+}

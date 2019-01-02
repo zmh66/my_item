@@ -1,0 +1,145 @@
+@charset "utf-8";
+
+/*以下是foot区域样式*/
+
+#footer .footer-top {
+    border-top: 1px solid #000
+}
+
+
+/*以下是main的bottom区域样式*/
+
+#footer .footer-top {
+    border: 1px solid #e0e0e1;
+    padding: 40px;
+    margin-bottom: 30px
+}
+
+#footer .footer-top li {
+    float: left
+}
+
+#footer .footer-top_box1 li {
+    width: 370px;
+    height: 138px;
+    border-right: 1px solid #CCC
+}
+
+#footer .footer-top_box1 li a {
+    display: inline-block;
+    width: 370px;
+    height: 120px;
+    position: relative
+}
+
+#footer .footer-top_box1 li img {
+    margin: 15px 164px
+}
+
+#footer .footer-top_box1 li p {
+    text-align: center;
+    font-size: 14px;
+    color: #727171;
+    line-height: 26px;
+}
+
+#footer .footer-top_box1 li:nth-of-type(1) p {
+    line-height: 32px;
+    color: #fff;
+    background: #b81c22;
+    width: 156px;
+    margin: 30px 107px 0
+}
+
+#footer .footer-top_box1 li:nth-of-type(3) {
+    border-right: 0
+}
+
+#footer .footer-top_box1 li:nth-of-type(3) img {
+    width: 100px;
+    height: 100px;
+    margin: 0 133px 10px
+}
+
+#footer .footer-top_box2 {
+    padding: 17px 0 14px;
+    background: #f8f8f8;
+}
+
+#footer .footer-top_box2 li {
+    padding: 0 65px;
+    line-height: 26px;
+    text-align: center;
+    border-right: 1px solid #dadadb
+}
+
+#footer .footer-top_box2 li:nth-of-type(6) {
+    border: none
+}
+
+#footer .footer-top_box2 li a {
+    color: #323232;
+}
+
+
+/* foot-bottom */
+
+#footer .footer-bottom {
+    border-top: 1px solid #000;
+}
+
+#footer .footer-bottom p {
+    text-align: center;
+    line-height: 25px;
+    font: "微软雅黑";
+    color: #3e3a39;
+}
+
+#footer .footer-bottom .text {
+    margin: 10px 0 30px
+}
+
+#footer .footer-bottom .img {
+    padding: 0 206.5px 25px
+}
+
+#footer .footer-bottom .img img {
+    height: 40px;
+}
+
+#footer .footer-bottom .img a {
+    display: block;
+    float: left;
+    margin: 0 10px;
+    background: url(../img/spritesbgtop.png) no-repeat
+}
+
+#footer .footer-bottom .img a:nth-of-type(1) {
+    width: 112px;
+    height: 40px;
+    background-position: 0 -582px
+}
+
+#footer .footer-bottom .img a:nth-of-type(2) {
+    width: 156px;
+    height: 45px;
+    background-position: 0 -629px
+}
+
+#footer .footer-bottom .img a:nth-of-type(3) {
+    width: 96px;
+    height: 42px;
+    background-position: 0 -675px
+}
+
+#footer .footer-bottom .img a:nth-of-type(4) {
+    width: 101px;
+    height: 42px;
+    background-position: -97px -675px
+}
+
+#footer .footer-bottom .img a:nth-of-type(5) {
+    width: 42px;
+    height: 42px;
+    background-position: -202px -675px
+}
